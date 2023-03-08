@@ -14,7 +14,7 @@ We can filter out these unwanted tree types from our dataset by using an express
 
 <figure><img src=".gitbook/assets/Screenshot 2023-03-06 at 4.35.41 PM.png" alt=""><figcaption><p>Select By Expression tool window with an expression.</p></figcaption></figure>
 
-This expression should return every row where the CMMN\_NM column contains data in the pattern of "any character, space, cherry".&#x20;
+This expression should return every row where the CMMN\_NM column contains data in the pattern of "any character(s), space, cherry" such as "Yoshino cherry" or "Kwanzan cherry".
 
 Note: You can find out more about building expressions by reviewing the documentation on the righthand side of the Select by Expression tool window when you click on any of the information in the middle column of the tool window, or by reviewing the section on [Interacting with features in the attribute table](https://docs.qgis.org/3.22/en/docs/user\_manual/working\_with\_vector/attribute\_table.html?highlight=select%20expression#id31) in the QGIS user manual.
 
@@ -22,5 +22,5 @@ Once you've entered the expression, click Select features at the bottom right of
 
 <figure><img src=".gitbook/assets/Screenshot 2023-03-06 at 4.39.13 PM.png" alt=""><figcaption><p>Example of attribute table after selection by expression.</p></figcaption></figure>
 
-If you look at the attribute table above, you'll notice that some cherry trees that we want, specifically Yoshino and Snowgoose trees, didn't get captured by our expression. We can try again to expand our results. Click on the Deselect all features from the layer icon to clear the previous selection before clicking on the Select Features Using an Expression icon to reopen the Select by Expression tool window.
+If you look at the attribute table above, you'll notice that some cherry trees that we want, specifically Yoshino and Snowgoose trees, didn't get captured by our expression. We can try again to expand our results. Click on the Deselect All Features From The Layer icon to clear the previous selection before clicking on the Select Features Using an Expression icon to reopen the Select by Expression tool window.
 
