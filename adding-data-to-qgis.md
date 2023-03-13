@@ -5,8 +5,9 @@ Now we'll add our downloaded street tree data to QGIS. if you're a new QGIS user
 We'll use the ![](https://docs.qgis.org/3.22/en/\_images/mActionDataSourceManager.png) Data Source Manager to import the GeoJSON file you downloaded previously. You'll find the icon for the Data Source Manager in the tool bar.
 
 1. Click the ![](https://docs.qgis.org/3.28/en/\_images/mActionAddOgrLayer.png) Vector icon to open the Vector dialog box.
-2. Click the browse button to the right of the **Source** entry to open your file menu and find the cherry\_trees.geojson file we downloaded previsously.
-3. Finally, click the Add button to add the geojson to the map.&#x20;
+2. Click the browse button to the right of the **Source** entry box to open your computer's file menu and locate the cherry\_trees.geojson file we downloaded previously.
+3. Click the Add button to add the geojson to the map.&#x20;
+4. Click the Close button to close the Data Source Manager window.
 
 <figure><img src=".gitbook/assets/datasourcemanager.png" alt=""><figcaption></figcaption></figure>
 
