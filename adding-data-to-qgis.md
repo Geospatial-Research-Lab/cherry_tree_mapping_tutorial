@@ -11,8 +11,8 @@ We'll use the ![](https://docs.qgis.org/3.22/en/\_images/mActionDataSourceManage
 
 <figure><img src=".gitbook/assets/datasourcemanager.png" alt=""><figcaption></figcaption></figure>
 
-Depending on whether or not you're using the entire street trees dataset or a pre-filtered version, your data should look something like this. (This is pre-filtered data.)&#x20;
+The resulting map should look something like this:
+
+<figure><img src=".gitbook/assets/Screenshot 2023-03-13 at 3.08.21 PM.png" alt=""><figcaption></figcaption></figure>
 
 Note: QGIS randomly selects colors for visualizing data, so your data will likely be a different color.&#x20;
-
-<figure><img src=".gitbook/assets/Screenshot 2023-03-06 at 4.05.30 PM.png" alt=""><figcaption><p>Screenshot of pre-filtered street tree data. </p></figcaption></figure>
